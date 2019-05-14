@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-client" />
+        <module name="consumer-client-dept" />
+        <module name="consumer-client-hystrix-dashboard" />
+        <module name="eureka-server-8761" />
+        <module name="eureka-server-8762" />
+        <module name="eureka-server-8763" />
+        <module name="prodiver-ticket-8001" />
+        <module name="provider-ticket-8001-hystrix" />
+        <module name="provider-ticket-8002" />
+        <module name="provider-ticket-8003" />
+        <module name="springcloud-zuul-gateway-9527" />
+        <module name="springcloudparent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-cilent-hystrix-dashboard" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-cilent-hystrix-dashboard" options="" />
+      <module name="consumer-client" options="" />
+      <module name="consumer-client-dept" options="-parameters" />
+      <module name="eureka-server-8761" options="" />
+      <module name="eureka-server-8762" options="" />
+      <module name="eureka-server-8763" options="" />
+      <module name="prodiver-ticket-8001" options="" />
+      <module name="provider-ticket-8001-hystrix" options="" />
+      <module name="provider-ticket-8002" options="" />
+      <module name="provider-ticket-8003" options="" />
+    </option>
+  </component>
+</project>

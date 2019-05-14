@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
  * @why：
  */
 @Data
-@Document(indexName = "xiongwei",type = "hello")
+@Document(indexName = "xiongwei", type = "hello")
 public class Book {
 
     private Integer id;
@@ -17,10 +17,6 @@ public class Book {
     private String name;
 
     private String author;
-
-
-
-
 
 
 }

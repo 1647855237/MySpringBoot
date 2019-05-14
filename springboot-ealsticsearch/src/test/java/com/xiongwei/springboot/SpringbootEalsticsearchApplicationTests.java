@@ -45,7 +45,7 @@ public class SpringbootEalsticsearchApplicationTests {
      * 测试检查
      */
     @Test
-    public void search(){
+    public void search() {
 
         String json = "{\n" +
                 "    \"query\" : {\n" +
@@ -73,14 +73,13 @@ public class SpringbootEalsticsearchApplicationTests {
     private BookRepository repository;
 
     @Test
-    public void test2(){
+    public void test2() {
         Book book = new Book();
         book.setId(3);
         book.setAuthor("熊伟");
         book.setName("java");
         repository.index(book);
     }
-
 
 
 }

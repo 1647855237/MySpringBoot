@@ -17,8 +17,8 @@ public class UserService {
      */
     @Reference(lazy = true)
     private ITicketService ticketService;
-    
-    public void hello(){
+
+    public void hello() {
         String ticket = ticketService.getTicket();
         System.out.println(ticket);
 

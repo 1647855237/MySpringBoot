@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0911504f-ea4c-41f3-b1d3-92081d7c5eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/service/TocketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/springcloud/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/SpingbootCacheApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/SpingbootCacheApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/main/java/com/xiongwei/spingboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spingboot-cache/src/test/java/com/xiongwei/spingboot/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spingboot-cache/src/test/java/com/xiongwei/spingboot/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/config/MyAMQP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/config/MyAMQP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-amqp/src/main/java/com/xiongwei/amqp/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-amqp/src/test/java/com/xiongwei/amqp/SpringbootAmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-amqp/src/test/java/com/xiongwei/amqp/SpringbootAmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/SpringbootEalsticsearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/SpringbootEalsticsearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-ealsticsearch/src/test/java/com/xiongwei/springboot/SpringbootEalsticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-ealsticsearch/src/test/java/com/xiongwei/springboot/SpringbootEalsticsearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jdbc/src/test/java/com/xiongwei/springboot/SpringbootJdbcApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-jdbc/src/test/java/com/xiongwei/springboot/SpringbootJdbcApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-plus/src/main/java/com/mybaits/plus/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-plus/src/main/java/com/mybaits/plus/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-plus/src/main/java/com/mybaits/plus/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-plus/src/main/java/com/mybaits/plus/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-plus/src/test/java/com/mybaits/plus/SpringbootPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-plus/src/test/java/com/mybaits/plus/SpringbootPlusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/java/com/xiongwei/springboot/controller/KungfuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/java/com/xiongwei/springboot/controller/KungfuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level1/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/level3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-sucurity/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/SpringbootTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/SpringbootTaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-task/src/main/java/com/xiongwei/springboot/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-task/src/test/java/com/xiongwei/springboot/MailSendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-task/src/test/java/com/xiongwei/springboot/MailSendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web-war/src/main/java/com/xiongwei/springboot/controller/JspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web-war/src/main/java/com/xiongwei/springboot/controller/JspController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web-war/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web-war/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web-war/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web-war/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-zookeeper/springboot-provider/src/main/java/com/xiongwei/provider/SpringbootProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-zookeeper/springboot-provider/src/main/java/com/xiongwei/provider/SpringbootProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-zookeeper/springboot-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-zookeeper/springboot-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/SpringbootUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/SpringbootUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-01-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-01-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-01-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-01-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-02-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-02-amqp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-03-elastic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-03-elastic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-03-elastic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-03-elastic/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-04-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-04-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-05-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-05-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-05-security/src/main/resources/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-05-security/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-05-security/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-05-security/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/consumer-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/consumer-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/consumer-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/consumer-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/provider-ticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/provider-ticket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/provider-ticket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-dubbo/provider-ticket/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/consumer-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/consumer-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/provider-ticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-06-springcloud/provider-ticket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-07-deploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-07-deploy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-07-deploy/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-07-deploy/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-08-actuator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-08-actuator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/代码/springboot-08-actuator/src/main/resources/application(1).properties" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/代码/springboot-08-actuator/src/main/resources/application(1).properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/java/KungfuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/java/KungfuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level1/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/level3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/SpringSecurity实验/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/cache实验/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/cache实验/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课件/文档/cache实验/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../课件/文档/cache实验/Employee.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/prodiver-ticket-8001/target/" />
+    <ignored path="$PROJECT_DIR$/provider-ticket-8002/target/" />
+    <ignored path="$PROJECT_DIR$/provider-ticket-8003/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-8761/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-8762/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-8763/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-client/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-client-dept/target/" />
+    <ignored path="$PROJECT_DIR$/provider-ticket-8001-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-client-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zuul-gateway-9527/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-client-hystrix-dashboard/描述.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="4" selection-start-column="29" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/SpringcloudZuulGateway9527Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/springcloud/controller/TicketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/描述.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/prodiver-ticket-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/service/TocketService.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8002/src/main/java/com/xiongwei/service/TocketService.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8003/src/main/java/com/xiongwei/service/TocketService.java" />
+        <option value="$PROJECT_DIR$/eureka-server-8763/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/ConsumerClientApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/config/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/myrule/config/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/eureka-server-8761/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/myrule/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/myrule/MySelfRuleTwo.java" />
+        <option value="$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/service/Dept.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/xiongwei/springcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/springcloud/ConsumerClientApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/ConsumerClientDeptApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/servife/TocketService.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/ProviderTicket8001HystrixApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/service/TicketClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/service/TocketService.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/servife/TicketService.java" />
+        <option value="$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/servife/TicketClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/main/java/com/xiongwei/ConsumerCilentHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/描述.txt" />
+        <option value="$PROJECT_DIR$/consumer-client/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-client-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-client-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-client-hystrix-dashboard/src/main/java/com/xiongwei/ConsumerClientHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-client-hystrix-dashboard/描述.txt" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/SpringcloudZuulGateway9527Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/prodiver-ticket-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/描述.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/improt/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\improt\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-zuul-gateway-9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-zuul-gateway-9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="99" />
+    <option name="y" value="297" />
+    <option name="width" value="1293" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="prodiver-ticket-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="prodiver-ticket-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="prodiver-ticket-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="prodiver-ticket-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongwei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongwei" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557802302816" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiongwei.service" />
+      <recent name="com.xiongwei.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\MySpringBoot\springcloudparent\provider-ticket-8001-hystrix\src\main\resources" />
+      <recent name="D:\IDEA\MySpringBoot\springcloudparent\provider-ticket-8001-hystrix\src\main\java\com\xiongwei" />
+      <recent name="D:\IDEA\MySpringBoot\springcloudparent\consumer-client-dept\src\main\java\com\xiongwei" />
+      <recent name="D:\IDEA\MySpringBoot\springcloudparent\consumer-client-dept\src\main\resources" />
+      <recent name="D:\IDEA\MySpringBoot\springcloudparent\consumer-client\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProdiverTicket8001Application">
+    <configuration name="ConsumerCilentHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-cilent-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ConsumerCilentHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.springcloud.ConsumerClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerClientDeptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-client-dept" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ConsumerClientDeptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerClientHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-client-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ConsumerClientHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer8761Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-8761" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.EurekaServer8761Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer8762Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-8762" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.EurekaServer8762Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer8763Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-8763" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.EurekaServer8763Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdiverTicket8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="prodiver-ticket-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ProdiverTicket8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTicket8001HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-ticket-8001-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ProviderTicket8001HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTicket8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-ticket-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ProviderTicket8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTicket8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-ticket-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.ProviderTicket8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudZuulGateway9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-zuul-gateway-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.SpringcloudZuulGateway9527Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0911504f-ea4c-41f3-b1d3-92081d7c5eb1" name="Default Changelist" comment="" />
+      <created>1557303567723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557303567723</updated>
+      <workItem from="1557303571457" duration="3317000" />
+      <workItem from="1557307098967" duration="1936000" />
+      <workItem from="1557309069093" duration="1713000" />
+      <workItem from="1557539237491" duration="6910000" />
+      <workItem from="1557577366850" duration="9233000" />
+      <workItem from="1557706573734" duration="2527000" />
+      <workItem from="1557727292301" duration="15843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41479000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30493915" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35491905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.51252687" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" weight="0.329277" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>currentIndex</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/consumer-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/myrule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/myrule/MySelfRuleTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/service/Dept.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/xiongwei/springcloud/ConsumerClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/xiongwei/myrule/MySelfRule.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/xiongwei/myrule/MySelfRuleTwo.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/xiongwei/springcloud/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/springcloud/ConsumerClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/springcloud/controller/UserController.java" />
+    <entry file="jar://D:/java/maven/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/service/TocketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/repository/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/SynchronousMethodHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/ProviderTicket8001HystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/service/TicketClientFallbackFactory.java" />
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/ConsumerClientDeptApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/service/TocketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/src/main/java/com/xiongwei/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/servife/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/src/main/java/com/xiongwei/servife/TicketClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8002/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/描述.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8763/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client/src/main/java/com/xiongwei/springcloud/ConsumerClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-cilent-hystrix-dashboard/src/main/java/com/xiongwei/ConsumerCilentHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-dept/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8001-hystrix/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="27" selection-start-line="16" selection-start-column="4" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-hystrix-dashboard/src/main/java/com/xiongwei/ConsumerClientHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-hystrix-dashboard/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8003/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="55" selection-start-line="16" selection-start-column="4" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8761/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="25" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-ticket-8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/java/com/xiongwei/springcloud/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/SpringcloudZuulGateway9527Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-client-hystrix-dashboard/描述.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="4" selection-start-column="29" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/com/xiongwei/controller/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prodiver-ticket-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/描述.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

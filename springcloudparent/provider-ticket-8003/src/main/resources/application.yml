@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: production-tiack  #集群这个需要一致
+server:
+  port: 8003
+
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:8761/eureka/   单机
+      # 集群
+      defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/,http://eureka8763.com:8763/eureka/
+  instance:
+    prefer-ip-address: true # 访问路径可以显示IP地址
+    instance-id: provider-8004 #自定义注册名，取别名，就是eureka管理显示那
+
+info:
+  app.name: xiongwei-production-tiack
+  company.name: com.xiongwei

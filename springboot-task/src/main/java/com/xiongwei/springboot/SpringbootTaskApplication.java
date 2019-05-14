@@ -7,7 +7,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 想使用springboot的异步任务，需要在启动类中加上@EnableAsync
- *  @EnableScheduling:开启定时任务注解
+ *
+ * @EnableScheduling:开启定时任务注解
  */
 
 @EnableAsync

@@ -1,0 +1,13 @@
+1.导包，zuul融合eureka
+            <dependency>
+                 <groupId>org.springframework.cloud</groupId>
+                 <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+             </dependency>
+             <dependency>
+                 <groupId>org.springframework.cloud</groupId>
+                 <artifactId>spring-cloud-starter-zuul</artifactId>
+             </dependency>
+2.yml文件
+3.修改host文件   127.0.0.1 gateway9527.com
+4.主启动类增加注解：@EnableZuulProxy
+5.

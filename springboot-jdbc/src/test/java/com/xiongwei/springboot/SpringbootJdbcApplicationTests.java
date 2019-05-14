@@ -21,7 +21,7 @@ public class SpringbootJdbcApplicationTests {
         Connection connection = dataSource.getConnection();
         System.out.println(dataSource.getClass());
         System.out.println(connection);
-connection.close();
+        connection.close();
     }
 
 }

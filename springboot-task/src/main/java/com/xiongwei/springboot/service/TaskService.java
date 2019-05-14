@@ -16,7 +16,7 @@ public class TaskService {
      * 标记方法是异步的。。。可以使方法异步执行
      */
     @Async
-    public void asyncTack(){
+    public void asyncTack() {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -27,19 +27,15 @@ public class TaskService {
 
 
     /**
-     *  @Scheduled：定时任务注解：
-     *  cron：second（秒）,minute（分）,hour（时）,day of month（日）,month(月) ,day of week（周几）.
-     *
-     *      @Scheduled(cron = "0 * * * * MON-FRI")
-     *      @Scheduled(cron = "0,1,2,3.4 * * * * MON-FRI")
-     *      @Scheduled(cron = "0-4 * * * * MON-FRI")
-     *
+     * @Scheduled：定时任务注解： cron：second（秒）,minute（分）,hour（时）,day of month（日）,month(月) ,day of week（周几）.
+     * @Scheduled(cron = "0 * * * * MON-FRI")
+     * @Scheduled(cron = "0,1,2,3.4 * * * * MON-FRI")
+     * @Scheduled(cron = "0-4 * * * * MON-FRI")
      */
     @Scheduled(cron = "0-4 * * * * MON-FRI")
-    public void scheduled(){
+    public void scheduled() {
         System.out.println("Hello World...");
     }
-
 
 
 }

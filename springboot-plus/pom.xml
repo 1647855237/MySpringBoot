@@ -16,9 +16,11 @@
 
     <properties>
         <java.version>1.8</java.version>
+
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -27,7 +29,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <version>5.1.38</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

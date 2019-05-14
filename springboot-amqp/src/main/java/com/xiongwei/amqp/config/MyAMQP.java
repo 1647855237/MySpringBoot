@@ -16,10 +16,11 @@ public class MyAMQP {
 
     /**
      * 自定义序列化器，原本的Sim的数据不好看，可以用这个转换成json的格式
+     *
      * @return
      */
     @Bean
-    public MessageConverter messageConverter(){
+    public MessageConverter messageConverter() {
         return new Jackson2JsonMessageConverter();
     }
 

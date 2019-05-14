@@ -1,0 +1,104 @@
+springcloud的五大神兽：
+1.Eureka(u瑞卡): 服务发现与注册
+zookeeper(瑞k盆)：服务的发现与注册
+2.Ribbon(锐本)：负载均衡
+Feign(奋)：负载均衡
+3.Zuul(入)：网关
+4.Hystrik(吹不吹渴死): 断路器（熔断）
+5.cloud config：分布式配置
+6.HystrixDashboard(达西波得)：服务监控
+
+springcloud组件参考地址：https://springcloud.cc/spring-cloud-netflix.html
+springcloudAPI中文地址：https://springcloud.cc/spring-cloud-dalston.html
+springcloud中文社区：https://springcloud.cn
+springcloud中文网：https://springcloud.cc
+
+
+一：Eureka微服务管理页面完善：
+	1.导入spring-boot-starter-actuator包
+	2. yml配置文件
+		eureka:
+	        	       instance:
+    			  prefer-ip-address: true # 访问路径可以显示IP地址
+  			  instance-id: production-tiack #自定义服务名，取别名，就是eureka管理显示那
+		info:  这个是点击info信息可以自定义
+  			app.name: xiongwei-production-tiack
+  			company.name: com.xiongwei
+Eureka有自我保护机制：
+	默认情况下，如果EurekaServer在一定时间内没有接收到某个微服务实例的心跳，EurekaServer将会默认注销该实例(默认90秒)。
+	  但是当网络分区故障发生时，微服务与EurekaServer之间无法正常通信，以上行为就非常危险---因为微服务本身其实是健康的，
+	  它可能是网络波动，此时就不应该注销这个微服务，Eureka通过“自我保护机制”来解决这个问题——当EurekaServer节点在
+	  短时间丢失过多客户端时，那么这些节点就会进去自我保护模式，就会保护服务注册表中的信息，不再删除服务注册表中的数据
+	  当网络恢复时，会自动退出自我保护机制
+二：Ribbon负载均衡有七种算法，可以根据业务不同而选择，具体的百度
+
+
+三：Feign负载均衡，feign整合了Ribbon，是面向接口编程，而Ribbon是面向微服务编程
+
+四：Hystrix断路器
+	1.服务熔断，熔断机制是应对雪崩效应的一种微服务链路保护机制
+		当扇出链路的某个微服务不可用或者响应时间太长时，会进行服务的降级，今儿熔断该节点
+		微服务的调用，快速返回错误的响应信息，当检测到该节点微服务调用响应正常后恢复调用链路
+		再springcloud框架里熔断机制通过Hystrix实现，Hystrix会监控微服务间调用的状态，当失败
+		的调用到一定阈值，默认是五秒内20次调用失败就会启动熔断机制，熔断机制注册而是@HystrixCommand
+		一句话：当某个服务故障或者是异常引起的，类似现实世界中的保险丝，当某个异常条件被处罚，直接
+				熔断整个服务，而不是一直等到 此服务超时。
+	2.服务降级
+		所谓降级，一般是从整体负荷考虑，就是当某个服务熔断之后，服务器不再被调用，此时客户端可以自己
+		准备一个本地的fallback回调，返回一个缺省值，这样做，虽然服务水平下降，但是好歹可用，比直接挂掉好
+	3.服务雪崩是什么？
+		多个微服务之间调用的时候，假设服务A调用微服务B和微服务C，微服务B和微服务C又调用其他的微服务，
+		这就是所谓的“扇出”。如果扇出的链路上某个微服务的调用响应时间过长或者不可用，对微服务A的调用
+		就会占用越来越多的系统资源，进而引起系统崩溃，所谓的“雪崩效应”
+五：Zuul 包含了对请求的路由和过滤两个最主要的功能
+	其中路由功能负责将外部请求转发到具体的微服务实例上，是实现外部访问统一入口的基础。
+	过滤器功能则是负责对请求的处理过程进行干预，实现请求校验、服务聚合等功能的举出。Zuul和Eureka进行整合
+	将自身注册为Eureka服务治理下的应用，同事从Eureka中获取其他服务的信息，也即以后的访问微服务都是通过Zuul跳转后获得
+	
+六：springcloud的config？
+	springcloud Config为微服务架构中的微服务提供集中化的外部配置支持，配置服务器为各个不同微服务的所有
+	环境提供了一个中心化的外部配置
+
+
+
+ 面试题：
+Eureka与Zookeeper的区别？
+ 1.zookeeper保证的时cp(强一致性和分区容错性)
+	zk会出现一种情况，当master节点因为网络故障与其他节点失去联系时，剩余的节点会重新进行leader选举，但是选举的时间太长，
+	30s-120s，并且选举期间震哥哥zk集群都是不可用的，这就会导致选举期间注册服务瘫痪，虽然能够最终回复，但是长时间的选举时间
+	导致的注册长期不可用是不可忽视的
+ 
+ 2.Eurka则是AP
+	Eureka在设计时优先保证了可用性，各个节点都是平等的，几个节点挂掉不会影响正常节点的工作，剩余的节点依然能提供注册与服务
+	，而Eureka的客户端在向某个Eureka注册发现连接失败，则会自动切换到其他节点，只要有一台Eureka还在，就可以保证服务可用，只不过
+	只不过查到的信息可能不是最新的，除此之外，Eureka还有一种自我保护机制，如果15分组内超过80%的节点都没有正常的心跳，那么Eureka就
+	认为客户但与注册中心出现了网络故障，此时会出现几种情况：
+		1。Eureka不再从注册列表中移除长时间没收到心跳而应该过期的服务
+		2.Eureka仍然能够接收新服务的注册和查询请求，但是不会被同步到其他节点上(即保证当前节点仍然可用)
+		3.当网络稳定时，当前实例新的注册信息会被同步到其他节点中
+
+
+一：.springcloud与springboot的关系？
+      1.springboot专注于快速、方便的开发单个项目，而springcloud是关注全局的微服务管理架构，它将每个单独的spring boot项目
+	整合并管理，为每个微服务之间提供配置管理，网关，熔断，分布式会话，服务的注册与发现等等
+      2.springcloud是基于springboot的，属于依赖关系，而spring boot可以独立开发项目
+二：springcloud与dubbo的区别？
+      1.最大的区别是通讯方式不同，dubbo用的rpc远程调用，而springcloud用的是http的resf请求
+      2.服务的注册与发现所用技术不同，springcloud用的eureka，而dubbo用的zookeeper 
+      3.dubbo不支持分布式的配置啊，还有网关之类的，而springcloud全支持，它是分布式一站式解决框架
+      4.活跃程度，因为dubbo几年前没有维护，2017年才开始重新维护的，springcloud使用人数较多，博客，什么帖子啊都比较多，
+	容易找资料。
+	
+三：Feign和Ribbon的区别?
+	
+	1.启动类使用的注解不同，Ribbon用的是@RibbonClient，Feign用的是@EnableFeignClients。
+	2.服务的指定位置不同，Ribbon是在@RibbonClient注解上声明，Feign则是在定义抽象方法的接口中使用@FeignClient声明。
+	3.调用方式不同，Ribbon需要自己构建http请求，模拟http请求然后使用RestTemplate发送给其他服务，步骤相当繁琐。
+	  Feign则是在Ribbon的基础上进行了一次改进，采用接口的方式，将需要调用的其他服务的方法定义成抽象方法即可，
+	  不需要自己构建http请求。不过要注意的是抽象方法的注解、方法签名要和提供服务的方法完全一致。
+	
+	
+	
+	
+	
+	

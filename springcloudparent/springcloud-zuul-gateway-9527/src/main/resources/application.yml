@@ -1,0 +1,23 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: zuul-gateway-9527
+
+
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:8761/eureka/   单机
+      # 集群
+      defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/,http://eureka8763.com:8763/eureka/
+  instance:
+    prefer-ip-address: true # 访问路径可以显示IP地址
+    instance-id: gateway9527.com #自定义注册名，取别名，就是eureka管理显示那
+# 给真实的服务名套一层虚假的，真实的不对外访问，就像滴滴上的虚拟号码
+zuul:
+  routes:
+    mydept.serviceId: production-tiack  #真实服务名，多个使用："*"
+    mydept.path: /mydept/** # 虚拟服务名
+  ignored-services: production-tiack  #真实服务名不能访问
+  prefix: /xiongwei  # 统一前缀

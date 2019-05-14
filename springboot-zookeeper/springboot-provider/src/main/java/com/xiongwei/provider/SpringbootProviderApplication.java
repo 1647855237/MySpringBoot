@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 分三步可以首页dubbo和zookeeper
- *  1.导入dubbo和zkclient的包
+ * 1.导入dubbo和zkclient的包
  */
 @SpringBootApplication
 public class SpringbootProviderApplication {

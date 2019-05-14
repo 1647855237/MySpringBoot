@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a40ad00-6b8f-44bb-8404-b0a5490d60ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/SpingbootCacheApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/SpingbootCacheApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/main/java/com/xiongwei/spingboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingboot-cache/src/test/java/com/xiongwei/spingboot/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spingboot-cache/src/test/java/com/xiongwei/spingboot/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/config/MyAMQP.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/config/MyAMQP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-amqp/src/main/java/com/xiongwei/amqp/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-amqp/src/test/java/com/xiongwei/amqp/SpringbootAmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-amqp/src/test/java/com/xiongwei/amqp/SpringbootAmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/SpringbootEalsticsearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/SpringbootEalsticsearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/java/com/xiongwei/springboot/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ealsticsearch/src/test/java/com/xiongwei/springboot/SpringbootEalsticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ealsticsearch/src/test/java/com/xiongwei/springboot/SpringbootEalsticsearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jdbc/src/test/java/com/xiongwei/springboot/SpringbootJdbcApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jdbc/src/test/java/com/xiongwei/springboot/SpringbootJdbcApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-plus/src/main/java/com/mybaits/plus/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-plus/src/main/java/com/mybaits/plus/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-plus/src/main/java/com/mybaits/plus/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-plus/src/main/java/com/mybaits/plus/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-plus/src/test/java/com/mybaits/plus/SpringbootPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-plus/src/test/java/com/mybaits/plus/SpringbootPlusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/java/com/xiongwei/springboot/controller/KungfuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/java/com/xiongwei/springboot/controller/KungfuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level1/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/level3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sucurity/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/SpringbootTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/SpringbootTaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/xiongwei/springboot/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-task/src/test/java/com/xiongwei/springboot/MailSendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-task/src/test/java/com/xiongwei/springboot/MailSendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web-war/src/main/java/com/xiongwei/springboot/controller/JspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web-war/src/main/java/com/xiongwei/springboot/controller/JspController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web-war/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web-war/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web-war/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web-war/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-zookeeper/springboot-provider/src/main/java/com/xiongwei/provider/SpringbootProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-zookeeper/springboot-provider/src/main/java/com/xiongwei/provider/SpringbootProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-zookeeper/springboot-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-zookeeper/springboot-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/SpringbootUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/SpringbootUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-zookeeper/springboot-user/src/main/java/com/xiongwei/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-01-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-01-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-01-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-01-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-02-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-02-amqp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-03-elastic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-03-elastic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-03-elastic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-03-elastic/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-04-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-04-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-05-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-05-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-05-security/src/main/resources/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-05-security/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-05-security/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-05-security/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/consumer-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/consumer-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/consumer-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/consumer-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/provider-ticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/provider-ticket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/provider-ticket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-dubbo/provider-ticket/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/consumer-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/consumer-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/provider-ticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-06-springcloud/provider-ticket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-07-deploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-07-deploy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-07-deploy/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-07-deploy/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-08-actuator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-08-actuator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/代码/springboot-08-actuator/src/main/resources/application(1).properties" beforeDir="false" afterPath="$PROJECT_DIR$/课件/代码/springboot-08-actuator/src/main/resources/application(1).properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/java/KungfuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/java/KungfuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level1/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/level3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/SpringSecurity实验/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/cache实验/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/cache实验/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/文档/cache实验/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/课件/文档/cache实验/Employee.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/improt/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\improt\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="99" />
+    <option name="y" value="297" />
+    <option name="width" value="1293" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MySpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiongwei.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a40ad00-6b8f-44bb-8404-b0a5490d60ac" name="Default Changelist" comment="" />
+      <created>1557046933059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557046933059</updated>
+      <workItem from="1557046944769" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="198000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

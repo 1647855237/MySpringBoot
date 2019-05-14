@@ -21,7 +21,7 @@ public class UserController {
     private UserMapper userMapper;
 
     @RequestMapping("/hello")
-    public Object hello(){
+    public Object hello() {
         List<User> users = userMapper.selectList(null);
         return users;
 

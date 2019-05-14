@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages={"com.xiongwei.provider.service", "com.xiongwei.user.service"})
+@ComponentScan(basePackages = {"com.xiongwei.provider.service", "com.xiongwei.user.service"})
 @SpringBootApplication
 public class SpringbootUserApplication {
 

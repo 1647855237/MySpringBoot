@@ -1,0 +1,11 @@
+1.导包：spring-cloud-starter-hystrix和spring-cloud-starter-hystrix-dashboard
+2.增加yml
+3.主启动类增加注解：@EnableHystrixDashboard
+4.检查提供微服务项目是否有监控jar包 <!-- actuator完善监控信息-->
+                             <dependency>
+                                 <groupId>org.springframework.boot</groupId>
+                                 <artifactId>spring-boot-starter-actuator</artifactId>
+                             </dependency>
+
+5.启动后访问：9001/hystrix
+6.如果需要图形化界面的话，9001/hystrix要在这里面填写要监控的路径

@@ -15,22 +15,24 @@ public class BookService {
 
     /**
      * 监听消息队列有消息过来，需要在启动类开启springboot注解支持
+     *
      * @param book
      */
     @RabbitListener(queues = "atguigu")
-    public void receive(Book book){
-        System.out.println("收到消息："+book);
+    public void receive(Book book) {
+        System.out.println("收到消息：" + book);
     }
 
     /**
      * 监听还可以取到消息头信息
+     *
      * @param message
      */
     @RabbitListener(queues = "atguigu_user")
-    public void receive2(Message message){
-        System.out.println("收到消息："+message.getBody());
-        System.out.println("收到消息："+message.getMessageProperties());
-        System.out.println("收到消息："+message.getClass());
+    public void receive2(Message message) {
+        System.out.println("收到消息：" + message.getBody());
+        System.out.println("收到消息：" + message.getMessageProperties());
+        System.out.println("收到消息：" + message.getClass());
     }
 
 

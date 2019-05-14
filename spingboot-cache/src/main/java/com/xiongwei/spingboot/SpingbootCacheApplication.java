@@ -8,7 +8,6 @@ import org.springframework.cache.annotation.EnableCaching;
 /**
  * @schema注解不能为空，springboot自动运行
  * @EnableCaching：开启缓存
- *
  */
 @EnableCaching
 @SpringBootApplication

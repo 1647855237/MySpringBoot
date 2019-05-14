@@ -20,19 +20,17 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class UserMapperTest {
-    
+
     @Autowired
     private UserMapper user;
-    
+
     @Test
-    public void find(){
+    public void find() {
         List<User> all = user.findAll();
         System.out.println(all);
 
 
     }
-    
-    
-    
+
 
 }

@@ -20,15 +20,10 @@ public class TaskController {
 
 
     @GetMapping("/hello")
-    public String hello(){
+    public String hello() {
         service.asyncTack();
         return "success";
     }
-
-
-
-
-
 
 
 }
